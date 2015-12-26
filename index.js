@@ -1,6 +1,6 @@
 function selectBt(listBtId)
 {
-	document.getElementById(listBtId).style.backgroundColor = "#bbbbbb";
+	document.getElementById(listBtId).style.backgroundColor = "#bbbbbb";	
 }
 function deselectBt(listBtId)
 {
@@ -17,7 +17,7 @@ function show(listId)
 		if(idArray[i] == listId)
 		{
 			document.getElementById(idArray[i]).style.display = "block";
-			selectBt(btArray[i]);
+			selectBt(btArray[i]);			
 		}
 		else
 		{
